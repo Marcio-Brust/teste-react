@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+body {
+  background-image: radial-gradient(
+    circle,
+    #141f30,
+    #273d56,
+    #385e7f,
+    #4882a9,
+    #55a8d4
+  );
+  display: grid;
+  justify-content: center;
+}
+.App {
+  margin: 2rem;
+}
+.container {
+  margin: 0 auto;
+}

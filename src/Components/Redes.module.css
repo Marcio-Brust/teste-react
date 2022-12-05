@@ -1,0 +1,23 @@
+.nav {
+  margin-top: 9.5rem;
+}
+.nav .ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.nav .ul img {
+  padding: 10px;
+  background-image: radial-gradient(
+    circle,
+    #141f30,
+    #141a2b,
+    #131626,
+    #131121,
+    #120a1c
+  );
+  border-radius: 50%;
+  display: flex;
+}
