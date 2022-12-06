@@ -21,7 +21,7 @@ const Projetos = () => {
       addScrollEvent() {
         this.projetos.forEach((projeto) => {
           projeto =
-            window.pageYOffset > projeto.offsetTop - window.innerHeight * 0.7
+            window.pageYOffset > projeto.offsetTop - window.innerHeight * 0.8
               ? projeto.classList.add("active")
               : projeto.classList.remove("active");
         });
