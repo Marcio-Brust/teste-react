@@ -25,17 +25,35 @@
   -ms-filter: blur(15px);
   filter: blur(15px); */
 }
-.projeto.active {
+/* .projetos .active {
   -webkit-filter: blur(0);
   -moz-filter: blur(0);
   -o-filter: blur(0);
   -ms-filter: blur(0);
   filter: blur(0);
-}
+} */
 .projetos p {
   margin-left: 1.5rem;
   color: #fff;
 }
 .projetos:hover {
   box-shadow: #fff 0px 0px 5px 2px;
+}
+
+:global(body.light) .projetos {
+  background-image: linear-gradient(
+    to right top,
+    #e0e5ee,
+    #ced9ee,
+    #bbcdee,
+    #a9c2ee,
+    #96b6ee
+  );
+  border: solid 2px #3f3e49;
+}
+:global(body.light) .projetos:hover {
+  box-shadow: #131121 0px 0px 5px 2px;
+}
+:global(body.light) .projetos p {
+  color: #222;
 }

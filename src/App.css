@@ -19,6 +19,16 @@ body {
   display: grid;
   justify-content: center;
 }
+body.light {
+  background-image: linear-gradient(
+    to right top,
+    #f0f1f2,
+    #f2f3f4,
+    #f5f5f6,
+    #f7f7f7,
+    #f9f9f9
+  );
+}
 .App {
   margin: 2rem;
 }

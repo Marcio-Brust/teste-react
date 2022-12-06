@@ -25,3 +25,17 @@
   border-radius: 50%;
   box-shadow: #fff 0px 0px 5px 2px;
 }
+
+:global(body.light) .nav .ul img {
+  background-image: linear-gradient(
+    to right top,
+    #e0e5ee,
+    #ced9ee,
+    #bbcdee,
+    #a9c2ee,
+    #96b6ee
+  );
+}
+:global(body.light) .nav .ul img:hover {
+  box-shadow: #131121 0px 0px 5px 2px;
+}
