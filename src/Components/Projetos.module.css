@@ -36,3 +36,6 @@
   margin-left: 1.5rem;
   color: #fff;
 }
+.projetos:hover {
+  box-shadow: #fff 0px 0px 5px 2px;
+}

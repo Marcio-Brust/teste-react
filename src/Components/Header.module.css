@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 300px;
+  margin-top: 19.5rem;
 }
 .h1 {
   font-weight: bold;
@@ -21,4 +21,7 @@
     #f9f9f9
   );
   cursor: pointer;
+}
+.btn:hover {
+  box-shadow: #f0f3f8 0px 0px 10px 2px;
 }
